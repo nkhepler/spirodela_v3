@@ -1,0 +1,266 @@
+TBLASTX 2.8.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ../SWLF01.1.fsa_nt
+           134 sequences; 138,536,245 total letters
+
+
+
+Query= Spipo20G0033800 CDS
+
+Length=432
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value  N
+
+  SWLF01000019.1 Spirodela polyrhiza strain 7498 scaffold27, whol...  121     9e-73  4
+
+
+> SWLF01000019.1 Spirodela polyrhiza strain 7498 scaffold27, whole 
+genome shotgun sequence
+Length=7568543
+
+ Score = 121 bits (258),  Expect(4) = 9e-73
+ Identities = 49/49 (100%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
+ Frame = -2/+3
+
+Query  323      PTRRPSPGSMILQRSTHTRSPIPATWTRVTVALLKPTLFFTSWVLSKYS  177
+                PTRRPSPGSMILQRSTHTRSPIPATWTRVTVALLKPTLFFTSWVLSKYS
+Sbjct  7376283  PTRRPSPGSMILQRSTHTRSPIPATWTRVTVALLKPTLFFTSWVLSKYS  7376429
+
+
+ Score = 95.9 bits (203),  Expect(4) = 9e-73
+ Identities = 38/38 (100%), Positives = 38/38 (100%), Gaps = 0/38 (0%)
+ Frame = -2/+1
+
+Query  431      YACNIGLTALTRNGRLAM*FDSKHSEWTRNRPRAKDPT  318
+                YACNIGLTALTRNGRLAM*FDSKHSEWTRNRPRAKDPT
+Sbjct  7376092  YACNIGLTALTRNGRLAM*FDSKHSEWTRNRPRAKDPT  7376205
+
+
+ Score = 85.4 bits (180),  Expect(4) = 9e-73
+ Identities = 33/34 (97%), Positives = 34/34 (100%), Gaps = 0/34 (0%)
+ Frame = -3/+3
+
+Query  112      VPQGRLELHWMKRQWQEQSLNSLGMLRRCSRRVS  11
+                +PQGRLELHWMKRQWQEQSLNSLGMLRRCSRRVS
+Sbjct  7376991  LPQGRLELHWMKRQWQEQSLNSLGMLRRCSRRVS  7377092
+
+
+ Score = 68.4 bits (143),  Expect(4) = 9e-73
+ Identities = 26/27 (96%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+ Frame = -3/+2
+
+Query  187      QNIPSIREFDGHRPLSEPPRQAHAPVP  107
+                Q IPSIREFDGHRPLSEPPRQAHAPVP
+Sbjct  7376819  QKIPSIREFDGHRPLSEPPRQAHAPVP  7376899
+
+
+ Score = 126 bits (270),  Expect(3) = 3e-62
+ Identities = 49/50 (98%), Positives = 49/50 (98%), Gaps = 0/50 (0%)
+ Frame = +3/-1
+
+Query  171      IEGIF**NPRGEEQRGLEQGHRDAGPGGWDGRPRVR*PLQYHAAWRRPPG  320
+                I GIF**NPRGEEQRGLEQGHRDAGPGGWDGRPRVR*PLQYHAAWRRPPG
+Sbjct  7376435  ISGIF**NPRGEEQRGLEQGHRDAGPGGWDGRPRVR*PLQYHAAWRRPPG  7376286
+
+
+ Score = 95.0 bits (201),  Expect(3) = 3e-62
+ Identities = 38/38 (100%), Positives = 38/38 (100%), Gaps = 0/38 (0%)
+ Frame = +3/-3
+
+Query  318      GWVLRPRPVSSPLRMLGVKLHSQPAISSQRGEPNITCI  431
+                GWVLRPRPVSSPLRMLGVKLHSQPAISSQRGEPNITCI
+Sbjct  7376205  GWVLRPRPVSSPLRMLGVKLHSQPAISSQRGEPNITCI  7376092
+
+
+ Score = 83.1 bits (175),  Expect(3) = 3e-62
+ Identities = 33/34 (97%), Positives = 34/34 (100%), Gaps = 0/34 (0%)
+ Frame = +3/-2
+
+Query  12       DTRREHRRSIPRLFKDCSCHCLFIQ*SSSLP*GT  113
+                DTRREHRRSIPRLFKDCSCHCLFIQ*SSSLP*G+
+Sbjct  7377091  DTRREHRRSIPRLFKDCSCHCLFIQ*SSSLP*GS  7376990
+
+
+ Score = 121 bits (258),  Expect(3) = 2e-59
+ Identities = 49/62 (79%), Positives = 55/62 (89%), Gaps = 0/62 (0%)
+ Frame = -1/+2
+
+Query  321      NQEAFARQHDTAEVNAHAVAHPSHLDPRHGGLAQAHAVLHLLGSIKIFLQFENLMGIVHF  142
+                +QEAFARQHDTAEVNAHAVAHPSHLDPRHGGLAQAHAVLHLLGSIKIFL++ +   +   
+Sbjct  7376285  HQEAFARQHDTAEVNAHAVAHPSHLDPRHGGLAQAHAVLHLLGSIKIFLRYHHRH*LAEI  7376464
+
+Query  141      QN  136
+                +N
+Sbjct  7376465  KN  7376470
+
+
+ Score = 92.7 bits (196),  Expect(3) = 2e-59
+ Identities = 38/38 (100%), Positives = 38/38 (100%), Gaps = 0/38 (0%)
+ Frame = -1/+3
+
+Query  432      LCM*YWAHRVDSKWPAGYVV*LQAF*VD*KQASGEGPN  319
+                LCM*YWAHRVDSKWPAGYVV*LQAF*VD*KQASGEGPN
+Sbjct  7376091  LCM*YWAHRVDSKWPAGYVV*LQAF*VD*KQASGEGPN  7376204
+
+
+ Score = 81.3 bits (171),  Expect(3) = 2e-59
+ Identities = 33/33 (100%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+ Frame = -1/+1
+
+Query  108      LKEDLSFIG*RGNGKNSL*TALECCDDVLGGYH  10
+                LKEDLSFIG*RGNGKNSL*TALECCDDVLGGYH
+Sbjct  7376995  LKEDLSFIG*RGNGKNSL*TALECCDDVLGGYH  7377093
+
+
+ Score = 117 bits (251),  Expect(3) = 8e-58
+ Identities = 49/54 (91%), Positives = 52/54 (96%), Gaps = 0/54 (0%)
+ Frame = +1/-2
+
+Query  163      ILELKEYFDRTQEVKNSVGLSKATVTRVQVAGMGDRVCVDLCSIMLPGEGLLVG  324
+                ++  +EYFDRTQEVKNSVGLSKATVTRVQVAGMGDRVCVDLCSIMLPGEGLLVG
+Sbjct  7376443  VMVSQEYFDRTQEVKNSVGLSKATVTRVQVAGMGDRVCVDLCSIMLPGEGLLVG  7376282
+
+
+ Score = 92.3 bits (195),  Expect(3) = 8e-58
+ Identities = 37/37 (100%), Positives = 37/37 (100%), Gaps = 0/37 (0%)
+ Frame = +2/-2
+
+Query  320      LGPSPEACF*STQNAWSQTT*PAGHFESTR*AQYYMH  430
+                LGPSPEACF*STQNAWSQTT*PAGHFESTR*AQYYMH
+Sbjct  7376203  LGPSPEACF*STQNAWSQTT*PAGHFESTR*AQYYMH  7376093
+
+
+ Score = 79.4 bits (167),  Expect(3) = 8e-58
+ Identities = 33/33 (100%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+ Frame = +2/-1
+
+Query  11       *YPPRTSSQHSKAVQRLFLPLPLHPMKLKSSLR  109
+                *YPPRTSSQHSKAVQRLFLPLPLHPMKLKSSLR
+Sbjct  7377092  *YPPRTSSQHSKAVQRLFLPLPLHPMKLKSSLR  7376994
+
+
+ Score = 92.3 bits (195),  Expect(4) = 3e-57
+ Identities = 38/38 (100%), Positives = 38/38 (100%), Gaps = 0/38 (0%)
+ Frame = -3/+2
+
+Query  430      MHVILGSPR*LEMAGWLCSLTPSILSGLETGLGRRTQP  317
+                MHVILGSPR*LEMAGWLCSLTPSILSGLETGLGRRTQP
+Sbjct  7376093  MHVILGSPR*LEMAGWLCSLTPSILSGLETGLGRRTQP  7376206
+
+
+ Score = 81.3 bits (171),  Expect(4) = 3e-57
+ Identities = 50/54 (93%), Positives = 50/54 (93%), Gaps = 0/54 (0%)
+ Frame = -3/+1
+
+Query  331      RRTQPGGLRQAA*YCRGQRTRGRPSQPPGpasrwpcssprcssPLGFYQNIPSI  170
+                R   PGGLRQAA*YCRGQRTRGRPSQPPGPASRWPCSSPRCSSPLGFYQNIP I
+Sbjct  7376275  RPDPPGGLRQAA*YCRGQRTRGRPSQPPGPASRWPCSSPRCSSPLGFYQNIPEI  7376436
+
+
+ Score = 78.0 bits (164),  Expect(4) = 3e-57
+ Identities = 33/36 (92%), Positives = 35/36 (97%), Gaps = 0/36 (0%)
+ Frame = -2/+2
+
+Query  116      SSASRKT*ASLDEEAMARTVFEQPWNAATMFSAGIT  9
+                ++ SRKT*ASLDEEAMARTVFEQPWNAATMFSAGIT
+Sbjct  7376987  AATSRKT*ASLDEEAMARTVFEQPWNAATMFSAGIT  7377094
+
+
+ Score = 66.6 bits (139),  Expect(4) = 3e-57
+ Identities = 25/29 (86%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+ Frame = -1/+3
+
+Query  180      FLQFENLMGIVHFQNHPAKPMLQCLKEDL  94
+                +LQFENLMGIVHFQNHPAKPMLQCL E +
+Sbjct  7376826  YLQFENLMGIVHFQNHPAKPMLQCLYEHI  7376912
+
+
+ Score = 90.9 bits (192),  Expect(3) = 5e-42
+ Identities = 39/40 (98%), Positives = 39/40 (98%), Gaps = 0/40 (0%)
+ Frame = +1/-1
+
+Query  313      LLVGSFARGLFLVHSECLESNYIASRPFRVNAVSPILHA*  432
+                L VGSFARGLFLVHSECLESNYIASRPFRVNAVSPILHA*
+Sbjct  7376210  LQVGSFARGLFLVHSECLESNYIASRPFRVNAVSPILHA*  7376091
+
+
+ Score = 74.8 bits (157),  Expect(3) = 5e-42
+ Identities = 33/33 (100%), Positives = 33/33 (100%), Gaps = 0/33 (0%)
+ Frame = +1/-3
+
+Query  10       VIPAENIVAAFQGCSKTVLAIASSSNEAQVFLE  108
+                VIPAENIVAAFQGCSKTVLAIASSSNEAQVFLE
+Sbjct  7377093  VIPAENIVAAFQGCSKTVLAIASSSNEAQVFLE  7376995
+
+
+ Score = 70.7 bits (148),  Expect(3) = 5e-42
+ Identities = 26/26 (100%), Positives = 26/26 (100%), Gaps = 0/26 (0%)
+ Frame = +2/-3
+
+Query  242      GSRWLGWATACALTSAVSCCLAKASW  319
+                GSRWLGWATACALTSAVSCCLAKASW
+Sbjct  7376364  GSRWLGWATACALTSAVSCCLAKASW  7376287
+
+
+ Score = 72.1 bits (151),  Expect = 2e-12
+ Identities = 30/42 (71%), Positives = 32/42 (76%), Gaps = 0/42 (0%)
+ Frame = +3/-3
+
+Query  60       CSCHCLFIQ*SSSLP*GTGAWAWRGGSESGRCPSNSRIEGIF  185
+                C     FI+ S  +  GTGAWAWRGGSESGRCPSNSRIEGIF
+Sbjct  7376946  CRPPAAFIKIS*CVRTGTGAWAWRGGSESGRCPSNSRIEGIF  7376821
+
+
+ Score = 71.2 bits (149),  Expect = 3e-12
+ Identities = 28/38 (74%), Positives = 31/38 (82%), Gaps = 0/38 (0%)
+ Frame = +2/-2
+
+Query  77       LHPMKLKSSLRHWSMGLAGWF*KWTMPIKFSN*RNILI  190
+                +H   L  S RHWSMGLAGWF*KWTMPIKFSN*R +L+
+Sbjct  7376929  VHQDFLMCSYRHWSMGLAGWF*KWTMPIKFSN*RYLLV  7376816
+
+
+ Score = 65.7 bits (137),  Expect = 2e-10
+ Identities = 27/36 (75%), Positives = 30/36 (83%), Gaps = 0/36 (0%)
+ Frame = -2/+1
+
+Query  179      SFNSRI*WASSTFRTTPPSPCSSASRKT*ASLDEEA  72
+                +FNSRI*WASSTFRTTPPSPCSSA   T  +LDE +
+Sbjct  7376827  TFNSRI*WASSTFRTTPPSPCSSACTNTSRNLDERS  7376934
+
+
+ Score = 63.4 bits (132),  Expect = 7e-10
+ Identities = 27/33 (82%), Positives = 29/33 (88%), Gaps = 0/33 (0%)
+ Frame = +1/-1
+
+Query  79       SSNEAQVFLEALEHGLGGVVLKVDDAHQILELK  177
+                SS    VF++ALEHGLGGVVLKVDDAHQILELK
+Sbjct  7376927  SSRFLDVFVQALEHGLGGVVLKVDDAHQILELK  7376829
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+
+Effective search space used: 4478727650
+
+
+  Database: ../SWLF01.1.fsa_nt
+    Posted date:  Sep 10, 2019  9:05 AM
+  Number of letters in database: 138,536,245
+  Number of sequences in database:  134
+
+
+
+Matrix: BLOSUM62
+Neighboring words threshold: 13
+Window for multiple hits: 40

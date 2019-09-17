@@ -1,0 +1,130 @@
+TBLASTX 2.8.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ../SWLF01.1.fsa_nt
+           134 sequences; 138,536,245 total letters
+
+
+
+Query= atexla1
+
+Length=798
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value  N
+
+  SWLF01000119.1 Spirodela polyrhiza strain 7498 tig00002390_5, w...  144     8e-53  3
+  SWLF01000075.1 Spirodela polyrhiza strain 7498 scaffold69, whol...  62.9    2e-09  1
+
+
+> SWLF01000119.1 Spirodela polyrhiza strain 7498 tig00002390_5, 
+whole genome shotgun sequence
+Length=9057910
+
+ Score = 144 bits (310),  Expect(3) = 8e-53
+ Identities = 51/80 (64%), Positives = 62/80 (78%), Gaps = 0/80 (0%)
+ Frame = +1/+2
+
+Query  559      SPNWGYMTRSHGAVWVTDKVPTGAIQFRFVVTGGYDGKMIWSQSVLPSNWEAGKIYDAGV  738
+                S +W YMTR  GAVW T + P GA+QFR VVTGGYDGK +W++ VLP +W  G +YDAGV
+Sbjct  4625369  SSDWRYMTRDFGAVWSTGRAPAGALQFRLVVTGGYDGKWVWAEKVLPLDWRTGAVYDAGV  4625548
+
+Query  739      QITDIAQEGCDPCDAHIWN*  798
+                QI+DIAQEGC PCD+ +W *
+Sbjct  4625549  QISDIAQEGCSPCDSEVWK*  4625608
+
+
+ Score = 68.9 bits (144),  Expect(3) = 8e-53
+ Identities = 29/46 (63%), Positives = 34/46 (74%), Gaps = 0/46 (0%)
+ Frame = +1/+3
+
+Query  229      QVRCKNPKLCSTKGTIVMITDLNKSNQTDLVLSSRAFRAMAKPIVG  366
+                Q+RCKN K C+  G  V++TDLNKSNQTD VLS  AF AMAK  +G
+Sbjct  4624854  QIRCKNGKFCTGAGVKVVVTDLNKSNQTDFVLSQPAFLAMAKDGMG  4624991
+
+
+ Score = 62.9 bits (131),  Expect(3) = 8e-53
+ Identities = 22/40 (55%), Positives = 35/40 (88%), Gaps = 0/40 (0%)
+ Frame = +1/+3
+
+Query  442      NMNVRVEEASKKPNYLEIKLLYQGGQTEVVSIDIAQVGSS  561
+                N++ RVEE+S++P +L +KLLYQGGQT++V++D+AQV  +
+Sbjct  4625154  NLSFRVEESSRRPAHLVVKLLYQGGQTDIVAVDVAQVSKN  4625273
+
+
+ Score = 67.0 bits (140),  Expect(2) = 3e-16
+ Identities = 30/79 (38%), Positives = 48/79 (61%), Gaps = 0/79 (0%)
+ Frame = -1/-1
+
+Query  795      VPDVSIARITTFLSNVSDLNTGVVNFPSFPIGWKNTL*PNHFTVVSTGYYEPELDSSGGY  616
+                +PD  +A   T L +V+DL+ GVV+ PS P+  ++ L P+   VV+  +++PEL+ +GG 
+Sbjct  4625605  LPDFGVAGGATLLRDVADLDAGVVDGPSPPVQRQDLLRPDPLPVVAARHHQPELEGAGGG  4625426
+
+Query  615      FVSYPNSSVASCHVTPIWR  559
+                    PN +  + HV PI R
+Sbjct  4625425  AAGAPNGAEVAGHVPPIRR  4625369
+
+
+ Score = 37.7 bits (76),  Expect(2) = 3e-16
+ Identities = 18/33 (55%), Positives = 21/33 (64%), Gaps = 0/33 (0%)
+ Frame = -2/-1
+
+Query  551      T*AMSMDTTSV*PPWYKSFISK*FGFLLASSTL  453
+                T*A S  T SV PPWY +  ++* G  L SSTL
+Sbjct  4625263  T*ATSTATMSVWPPWYNNLTTR*AGLRLLSSTL  4625165
+
+
+ Score = 82.6 bits (174),  Expect = 3e-15
+ Identities = 42/73 (58%), Positives = 44/73 (60%), Gaps = 0/73 (0%)
+ Frame = -2/-2
+
+Query  794      FQM*ASQGSQPS*AMSVI*TPAS*IFPASQLDGRTLCDQIILPSYPPVTTNLNWIAPVGT  615
+                FQ   SQG QPS AMS+I TPAS*  P  Q  GRT   Q   PS PPVTT+ NW AP G 
+Sbjct  4625604  FQTSESQGEQPSCAMSLIWTPAS*TAPVLQSSGRTFSAQTHFPS*PPVTTSRNWRAPAGA  4625425
+
+Query  614      LSVTQTAPWLLVM  576
+                  V QTAP   VM
+Sbjct  4625424  RPVLQTAPKSRVM  4625386
+
+
+> SWLF01000075.1 Spirodela polyrhiza strain 7498 scaffold69, whole 
+genome shotgun sequence
+Length=6955380
+
+ Score = 62.9 bits (131),  Expect = 2e-09
+ Identities = 27/88 (31%), Positives = 44/88 (50%), Gaps = 0/88 (0%)
+ Frame = +1/-2
+
+Query  463      EASKKPNYLEIKLLYQGGQTEVVSIDIAQVGSSPNWGYMTRSHGAVWVTDKVPTGAIQFR  642
+                +A   PNYL + + Y+ G  ++ S+ + Q   S +W  M +S GAVW  +        F 
+Sbjct  1801610  DAGSNPNYLAVLIEYEDGDGDLSSVHLGQSPDSSSWLPMQQSWGAVWKINSGSALRAPFS  1801431
+
+Query  643      FVVTGGYDGKMIWSQSVLPSNWEAGKIY  726
+                F +T    GK + +  V+P  W+ G+ Y
+Sbjct  1801430  FRLTSLTSGKTLVATDVIPVGWQPGETY  1801347
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+
+Effective search space used: 10019363494
+
+
+  Database: ../SWLF01.1.fsa_nt
+    Posted date:  Sep 10, 2019  9:05 AM
+  Number of letters in database: 138,536,245
+  Number of sequences in database:  134
+
+
+
+Matrix: BLOSUM62
+Neighboring words threshold: 13
+Window for multiple hits: 40

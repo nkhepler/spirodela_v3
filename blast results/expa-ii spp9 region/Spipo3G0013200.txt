@@ -1,0 +1,108 @@
+TBLASTX 2.8.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ../SWLF01.1.fsa_nt
+           134 sequences; 138,536,245 total letters
+
+
+
+Query= Spipo3G0013200 CDS
+
+Length=210
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value  N
+
+  SWLF01000023.1 Spirodela polyrhiza strain 7498 scaffold52, whol...  166     2e-41  1
+
+
+> SWLF01000023.1 Spirodela polyrhiza strain 7498 scaffold52, whole 
+genome shotgun sequence
+Length=10795902
+
+ Score = 166 bits (357),  Expect = 2e-41
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+ Frame = -1/+2
+
+Query  210      LFLGVLDSFPHLLQEAPCQPRRTSLCSWFSMARAG*REPRLGNVRPLPDRGVNGELANA*  31
+                LFLGVLDSFPHLLQEAPCQPRRTSLCSWFSMARAG*REPRLGNVRPLPDRGVNGELANA*
+Sbjct  2986037  LFLGVLDSFPHLLQEAPCQPRRTSLCSWFSMARAG*REPRLGNVRPLPDRGVNGELANA*  2986216
+
+Query  30       VYDRDAVH  7
+                VYDRDAVH
+Sbjct  2986217  VYDRDAVH  2986240
+
+
+ Score = 97.3 bits (206),  Expect(2) = 1e-39
+ Identities = 38/38 (100%), Positives = 38/38 (100%), Gaps = 0/38 (0%)
+ Frame = -2/+3
+
+Query  119      WLERDEENHALGTSAPSPTVVSTGSWLMLRFMTGMPYI  6
+                WLERDEENHALGTSAPSPTVVSTGSWLMLRFMTGMPYI
+Sbjct  2986128  WLERDEENHALGTSAPSPTVVSTGSWLMLRFMTGMPYI  2986241
+
+
+ Score = 83.1 bits (175),  Expect(2) = 1e-39
+ Identities = 36/36 (100%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+ Frame = -3/+1
+
+Query  208      IPRRSRFLSAPPPRGSVSAAKDVALLVVLDGSSGMK  101
+                IPRRSRFLSAPPPRGSVSAAKDVALLVVLDGSSGMK
+Sbjct  2986039  IPRRSRFLSAPPPRGSVSAAKDVALLVVLDGSSGMK  2986146
+
+
+ Score = 158 bits (339),  Expect = 6e-39
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+ Frame = +1/-3
+
+Query  7        MYGIPVINLSISQLPVDTTVGEGADVPKAWFSSSRSSHREPRAERRPSRLTRSLLEEVRK  186
+                MYGIPVINLSISQLPVDTTVGEGADVPKAWFSSSRSSHREPRAERRPSRLTRSLLEEVRK
+Sbjct  2986240  MYGIPVINLSISQLPVDTTVGEGADVPKAWFSSSRSSHREPRAERRPSRLTRSLLEEVRK  2986061
+
+Query  187      GIENAEE*  210
+                GIENAEE*
+Sbjct  2986060  GIENAEE*  2986037
+
+
+ Score = 123 bits (264),  Expect = 1e-28
+ Identities = 49/49 (100%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
+ Frame = +2/-1
+
+Query  62       RSGRGRTFPRRGSLHPARAIENHEQSDVLRG*HGASWRRCGKESRTPRN  208
+                RSGRGRTFPRRGSLHPARAIENHEQSDVLRG*HGASWRRCGKESRTPRN
+Sbjct  2986185  RSGRGRTFPRRGSLHPARAIENHEQSDVLRG*HGASWRRCGKESRTPRN  2986039
+
+
+ Score = 68.0 bits (142),  Expect = 8e-12
+ Identities = 29/29 (100%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+ Frame = +3/-2
+
+Query  84       SQGVVLFIPLEPSRTTSRATSFAADTEPL  170
+                SQGVVLFIPLEPSRTTSRATSFAADTEPL
+Sbjct  2986163  SQGVVLFIPLEPSRTTSRATSFAADTEPL  2986077
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+
+Effective search space used: 1246670622
+
+
+  Database: ../SWLF01.1.fsa_nt
+    Posted date:  Sep 10, 2019  9:05 AM
+  Number of letters in database: 138,536,245
+  Number of sequences in database:  134
+
+
+
+Matrix: BLOSUM62
+Neighboring words threshold: 13
+Window for multiple hits: 40

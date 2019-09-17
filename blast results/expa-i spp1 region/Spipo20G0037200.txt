@@ -1,0 +1,250 @@
+TBLASTX 2.8.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ../SWLF01.1.fsa_nt
+           134 sequences; 138,536,245 total letters
+
+
+
+Query= Spipo20G0037200 CDS
+
+Length=129
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value  N
+
+  SWLF01000019.1 Spirodela polyrhiza strain 7498 scaffold27, whol...  105     9e-24  1
+  SWLF01000047.1 Spirodela polyrhiza strain 7498 scaffold22, whol...  69.3    1e-12  1
+  SWLF01000075.1 Spirodela polyrhiza strain 7498 scaffold69, whol...  67.0    5e-12  1
+  SWLF01000023.1 Spirodela polyrhiza strain 7498 scaffold52, whol...  57.4    4e-09  1
+
+
+> SWLF01000019.1 Spirodela polyrhiza strain 7498 scaffold27, whole 
+genome shotgun sequence
+Length=7568543
+
+ Score = 105 bits (225),  Expect = 9e-24
+ Identities = 43/43 (100%), Positives = 43/43 (100%), Gaps = 0/43 (0%)
+ Frame = -1/-1
+
+Query  129      LATSYNKIRVAQRKRGGPITHRSQDRNLALIDAEQLPSPFNWT  1
+                LATSYNKIRVAQRKRGGPITHRSQDRNLALIDAEQLPSPFNWT
+Sbjct  7522265  LATSYNKIRVAQRKRGGPITHRSQDRNLALIDAEQLPSPFNWT  7522137
+
+
+ Score = 105 bits (225),  Expect = 9e-24
+ Identities = 43/43 (100%), Positives = 43/43 (100%), Gaps = 0/43 (0%)
+ Frame = +1/+3
+
+Query  1        GPVKRRGKLLCIYQSQVSILGPVGYGPTTLPLRHSDFVIRSC*  129
+                GPVKRRGKLLCIYQSQVSILGPVGYGPTTLPLRHSDFVIRSC*
+Sbjct  7522137  GPVKRRGKLLCIYQSQVSILGPVGYGPTTLPLRHSDFVIRSC*  7522265
+
+
+ Score = 105 bits (223),  Expect = 2e-23
+ Identities = 42/42 (100%), Positives = 42/42 (100%), Gaps = 0/42 (0%)
+ Frame = +3/+2
+
+Query  3        SS*KEREAALHLSEPGFDPGTCGLWAHHASAAPL*FCYKKLL  128
+                SS*KEREAALHLSEPGFDPGTCGLWAHHASAAPL*FCYKKLL
+Sbjct  7522139  SS*KEREAALHLSEPGFDPGTCGLWAHHASAAPL*FCYKKLL  7522264
+
+
+ Score = 104 bits (221),  Expect = 3e-23
+ Identities = 42/42 (100%), Positives = 42/42 (100%), Gaps = 0/42 (0%)
+ Frame = -3/-3
+
+Query  127      SNFL*QNQSGAAEAWWAHNPQVPGSKPGSDRCRAASLSF*LD  2
+                SNFL*QNQSGAAEAWWAHNPQVPGSKPGSDRCRAASLSF*LD
+Sbjct  7522263  SNFL*QNQSGAAEAWWAHNPQVPGSKPGSDRCRAASLSF*LD  7522138
+
+
+ Score = 102 bits (218),  Expect = 8e-23
+ Identities = 42/42 (100%), Positives = 42/42 (100%), Gaps = 0/42 (0%)
+ Frame = +2/+1
+
+Query  2        VQLKGEGSCSASIRARFRSWDLWVMGPPRFRCATLILL*EVA  127
+                VQLKGEGSCSASIRARFRSWDLWVMGPPRFRCATLILL*EVA
+Sbjct  7522138  VQLKGEGSCSASIRARFRSWDLWVMGPPRFRCATLILL*EVA  7522263
+
+
+ Score = 96.4 bits (204),  Expect = 7e-21
+ Identities = 42/42 (100%), Positives = 42/42 (100%), Gaps = 0/42 (0%)
+ Frame = -2/-2
+
+Query  128      *QLLITKSEWRSGSVVGP*PTGPRIETWL**MQSSFPLLLTG  3
+                *QLLITKSEWRSGSVVGP*PTGPRIETWL**MQSSFPLLLTG
+Sbjct  7522264  *QLLITKSEWRSGSVVGP*PTGPRIETWL**MQSSFPLLLTG  7522139
+
+
+> SWLF01000047.1 Spirodela polyrhiza strain 7498 scaffold22, whole 
+genome shotgun sequence
+Length=7771994
+
+ Score = 69.3 bits (145),  Expect = 1e-12
+ Identities = 26/28 (93%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+ Frame = -3/-2
+
+Query  109      NQSGAAEAWWAHNPQVPGSKPGSDRCRA  26
+                NQSGAAEAWWAHNPQVPGSKPGSDR  A
+Sbjct  3746113  NQSGAAEAWWAHNPQVPGSKPGSDRREA  3746030
+
+
+ Score = 67.5 bits (141),  Expect = 4e-12
+ Identities = 25/26 (96%), Positives = 26/26 (100%), Gaps = 0/26 (0%)
+ Frame = +2/+2
+
+Query  32       ASIRARFRSWDLWVMGPPRFRCATLI  109
+                +SIRARFRSWDLWVMGPPRFRCATLI
+Sbjct  3746036  SSIRARFRSWDLWVMGPPRFRCATLI  3746113
+
+
+ Score = 67.0 bits (140),  Expect = 5e-12
+ Identities = 25/25 (100%), Positives = 25/25 (100%), Gaps = 0/25 (0%)
+ Frame = +3/+3
+
+Query  36       LSEPGFDPGTCGLWAHHASAAPL*F  110
+                LSEPGFDPGTCGLWAHHASAAPL*F
+Sbjct  3746040  LSEPGFDPGTCGLWAHHASAAPL*F  3746114
+
+
+ Score = 64.8 bits (135),  Expect = 2e-11
+ Identities = 26/35 (74%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+ Frame = -1/-3
+
+Query  114      NKIRVAQRKRGGPITHRSQDRNLALIDAEQLPSPF  10
+                ++IRVAQRKRGGPITHRSQDRNLALI+ + +  PF
+Sbjct  3746118  SQIRVAQRKRGGPITHRSQDRNLALIEEKLIRDPF  3746014
+
+
+ Score = 62.9 bits (131),  Expect = 8e-11
+ Identities = 25/27 (93%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+ Frame = +1/+1
+
+Query  28       LCIYQSQVSILGPVGYGPTTLPLRHSD  108
+                L  YQSQVSILGPVGYGPTTLPLRHSD
+Sbjct  3746032  LLFYQSQVSILGPVGYGPTTLPLRHSD  3746112
+
+
+ Score = 62.9 bits (131),  Expect = 8e-11
+ Identities = 26/28 (93%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+ Frame = -2/-1
+
+Query  110      KSEWRSGSVVGP*PTGPRIETWL**MQS  27
+                KSEWRSGSVVGP*PTGPRIETWL** +S
+Sbjct  3746114  KSEWRSGSVVGP*PTGPRIETWL**KRS  3746031
+
+
+> SWLF01000075.1 Spirodela polyrhiza strain 7498 scaffold69, whole 
+genome shotgun sequence
+Length=6955380
+
+ Score = 67.0 bits (140),  Expect = 5e-12
+ Identities = 25/31 (81%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+ Frame = +2/+3
+
+Query  20       GSCSASIRARFRSWDLWVMGPPRFRCATLIL  112
+                G  +  IRARFRSWDLWVMGPPRFRCATLI+
+Sbjct  5171130  GKPALDIRARFRSWDLWVMGPPRFRCATLIV  5171222
+
+
+ Score = 66.6 bits (139),  Expect = 7e-12
+ Identities = 24/24 (100%), Positives = 24/24 (100%), Gaps = 0/24 (0%)
+ Frame = -3/-2
+
+Query  109      NQSGAAEAWWAHNPQVPGSKPGSD  38
+                NQSGAAEAWWAHNPQVPGSKPGSD
+Sbjct  5171219  NQSGAAEAWWAHNPQVPGSKPGSD  5171148
+
+
+ Score = 64.8 bits (135),  Expect = 2e-11
+ Identities = 26/36 (72%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+ Frame = -2/-1
+
+Query  122      LLITKSEWRSGSVVGP*PTGPRIETWL**MQSSFPL  15
+                +LI +SEWRSGSVVGP*PTGPRIETWL*  + + P+
+Sbjct  5171232  ILIQQSEWRSGSVVGP*PTGPRIETWL*YREQASPV  5171125
+
+
+ Score = 64.8 bits (135),  Expect = 2e-11
+ Identities = 24/26 (92%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+ Frame = +3/+1
+
+Query  30       LHLSEPGFDPGTCGLWAHHASAAPL*  107
+                L +SEPGFDPGTCGLWAHHASAAPL*
+Sbjct  5171140  LSISEPGFDPGTCGLWAHHASAAPL*  5171217
+
+
+ Score = 62.0 bits (129),  Expect = 2e-10
+ Identities = 26/34 (76%), Positives = 28/34 (82%), Gaps = 0/34 (0%)
+ Frame = -1/-3
+
+Query  117      YNKIRVAQRKRGGPITHRSQDRNLALIDAEQLPS  16
+                ++ IRVAQRKRGGPITHRSQDRNLALI     PS
+Sbjct  5171227  HSTIRVAQRKRGGPITHRSQDRNLALISRAGFPS  5171126
+
+
+ Score = 62.0 bits (129),  Expect = 2e-10
+ Identities = 25/30 (83%), Positives = 26/30 (87%), Gaps = 0/30 (0%)
+ Frame = +1/+2
+
+Query  19       GKLLCIYQSQVSILGPVGYGPTTLPLRHSD  108
+                G+    YQSQVSILGPVGYGPTTLPLRHSD
+Sbjct  5171129  GEACSRYQSQVSILGPVGYGPTTLPLRHSD  5171218
+
+
+> SWLF01000023.1 Spirodela polyrhiza strain 7498 scaffold52, whole 
+genome shotgun sequence
+Length=10795902
+
+ Score = 57.4 bits (119),  Expect = 4e-09
+ Identities = 22/25 (88%), Positives = 22/25 (88%), Gaps = 0/25 (0%)
+ Frame = +2/+2
+
+Query  38       IRARFRSWDLWVMGPPRFRCATLIL  112
+                IRARF SWDLWV GPPRFRCATL L
+Sbjct  4777934  IRARF*SWDLWVEGPPRFRCATLTL  4778008
+
+
+ Score = 50.1 bits (103),  Expect = 6e-07
+ Identities = 19/24 (79%), Positives = 23/24 (96%), Gaps = 0/24 (0%)
+ Frame = -1/-1
+
+Query  108      IRVAQRKRGGPITHRSQDRNLALI  37
+                ++VAQRKRGGP THRSQD+NLAL+
+Sbjct  4778004  VKVAQRKRGGPSTHRSQDQNLALM  4777933
+
+
+ Score = 50.1 bits (103),  Expect = 6e-07
+ Identities = 18/23 (78%), Positives = 20/23 (87%), Gaps = 0/23 (0%)
+ Frame = -3/-3
+
+Query  106      QSGAAEAWWAHNPQVPGSKPGSD  38
+                QSG AEAWWA NPQVP S+PGS+
+Sbjct  4778002  QSGTAEAWWAFNPQVPRSEPGSN  4777934
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+
+Effective search space used: 369392464
+
+
+  Database: ../SWLF01.1.fsa_nt
+    Posted date:  Sep 10, 2019  9:05 AM
+  Number of letters in database: 138,536,245
+  Number of sequences in database:  134
+
+
+
+Matrix: BLOSUM62
+Neighboring words threshold: 13
+Window for multiple hits: 40

@@ -1,0 +1,125 @@
+TBLASTX 2.8.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ../SWLF01.1.fsa_nt
+           134 sequences; 138,536,245 total letters
+
+
+
+Query= Spipo3G0015000 CDS
+
+Length=297
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value  N
+
+  SWLF01000023.1 Spirodela polyrhiza strain 7498 scaffold52, whol...  203     3e-52  1
+
+
+> SWLF01000023.1 Spirodela polyrhiza strain 7498 scaffold52, whole 
+genome shotgun sequence
+Length=10795902
+
+ Score = 203 bits (438),  Expect = 3e-52
+ Identities = 90/91 (99%), Positives = 91/91 (100%), Gaps = 0/91 (0%)
+ Frame = +1/-1
+
+Query  4        EGSSLDFMLEFVGFIVVKTVDVIGIAKRIKEIEEDNRKKDEAENLCVQEKRILDAQIGDV  183
+                +GSSLDFMLEFVGFIVVKTVDVIGIAKRIKEIEEDNRKKDEAENLCVQEKRILDAQIGDV
+Sbjct  3147666  QGSSLDFMLEFVGFIVVKTVDVIGIAKRIKEIEEDNRKKDEAENLCVQEKRILDAQIGDV  3147487
+
+Query  184      HILAVSTDSSILAVTVGRAIHFFSVSSLVQK  276
+                HILAVSTDSSILAVTVGRAIHFFSVSSLVQK
+Sbjct  3147486  HILAVSTDSSILAVTVGRAIHFFSVSSLVQK  3147394
+
+
+ Score = 181 bits (390),  Expect = 1e-45
+ Identities = 91/91 (100%), Positives = 91/91 (100%), Gaps = 0/91 (0%)
+ Frame = -1/+1
+
+Query  276      LLHE*RN*EKVNCSANGDGEnrrvc*ncqnvNITNLCIQYAFFLNAQILGLIFFSVVLFD  97
+                LLHE*RN*EKVNCSANGDGENRRVC*NCQNVNITNLCIQYAFFLNAQILGLIFFSVVLFD
+Sbjct  3147394  LLHE*RN*EKVNCSANGDGENRRVC*NCQNVNITNLCIQYAFFLNAQILGLIFFSVVLFD  3147573
+
+Query  96       FFDALRYSDNVNSLHHDKPYELEHKIQR*TL  4
+                FFDALRYSDNVNSLHHDKPYELEHKIQR*TL
+Sbjct  3147574  FFDALRYSDNVNSLHHDKPYELEHKIQR*TL  3147666
+
+
+ Score = 180 bits (388),  Expect = 2e-45
+ Identities = 92/92 (100%), Positives = 92/92 (100%), Gaps = 0/92 (0%)
+ Frame = -3/+3
+
+Query  280      LPFARVKKLRKSELLGQR*RRESTSLLKLPKCEHHQSVHPICVFPERTDSRPHlffccpl  101
+                LPFARVKKLRKSELLGQR*RRESTSLLKLPKCEHHQSVHPICVFPERTDSRPHLFFCCPL
+Sbjct  3147390  LPFARVKKLRKSELLGQR*RRESTSLLKLPKCEHHQSVHPICVFPERTDSRPHLFFCCPL  3147569
+
+Query  100      rfl*CASLFR*RQQSSPR*TLRTRA*NPTMNP  5
+                RFL*CASLFR*RQQSSPR*TLRTRA*NPTMNP
+Sbjct  3147570  RFL*CASLFR*RQQSSPR*TLRTRA*NPTMNP  3147665
+
+
+ Score = 127 bits (272),  Expect(2) = 8e-45
+ Identities = 49/50 (98%), Positives = 50/50 (100%), Gaps = 0/50 (0%)
+ Frame = +3/-3
+
+Query  132      ESVRSGKTHIGCTDW*CSHFGSFNRLVDSRRHRWPSNSLFLSFFTRAKGR  281
+                ESVRSGKTHIGCTDW*CSHFGSFNRLVDSRRHRWPSNSLFLSFFTRAKG+
+Sbjct  3147538  ESVRSGKTHIGCTDW*CSHFGSFNRLVDSRRHRWPSNSLFLSFFTRAKGK  3147389
+
+
+ Score = 71.2 bits (149),  Expect(2) = 8e-45
+ Identities = 28/28 (100%), Positives = 28/28 (100%), Gaps = 0/28 (0%)
+ Frame = +3/-3
+
+Query  6        GFIVGFYARVRRVYRGEDC*RYRNSEAH  89
+                GFIVGFYARVRRVYRGEDC*RYRNSEAH
+Sbjct  3147664  GFIVGFYARVRRVYRGEDC*RYRNSEAH  3147581
+
+
+ Score = 165 bits (355),  Expect = 7e-41
+ Identities = 90/90 (100%), Positives = 90/90 (100%), Gaps = 0/90 (0%)
+ Frame = -2/+2
+
+Query  275      FCTSEETEKK*IARPTVTARIDESVETAKM*TSPICASNMRFS*THRfsassffllsssi  96
+                FCTSEETEKK*IARPTVTARIDESVETAKM*TSPICASNMRFS*THRFSASSFFLLSSSI
+Sbjct  3147395  FCTSEETEKK*IARPTVTARIDESVETAKM*TSPICASNMRFS*THRFSASSFFLLSSSI  3147574
+
+Query  95       sLMRFAIPITSTVFTTINPTNSSIKSNDEP  6
+                SLMRFAIPITSTVFTTINPTNSSIKSNDEP
+Sbjct  3147575  SLMRFAIPITSTVFTTINPTNSSIKSNDEP  3147664
+
+
+ Score = 98.7 bits (209),  Expect = 1e-20
+ Identities = 52/52 (100%), Positives = 52/52 (100%), Gaps = 0/52 (0%)
+ Frame = +2/-2
+
+Query  122      MRPRICAFRKNAYWMHRLVMftfwqfqqtrrfSPSPLAEQFTFSQFLHSCKR  277
+                MRPRICAFRKNAYWMHRLVMFTFWQFQQTRRFSPSPLAEQFTFSQFLHSCKR
+Sbjct  3147548  MRPRICAFRKNAYWMHRLVMFTFWQFQQTRRFSPSPLAEQFTFSQFLHSCKR  3147393
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+
+Effective search space used: 2493326772
+
+
+  Database: ../SWLF01.1.fsa_nt
+    Posted date:  Sep 10, 2019  9:05 AM
+  Number of letters in database: 138,536,245
+  Number of sequences in database:  134
+
+
+
+Matrix: BLOSUM62
+Neighboring words threshold: 13
+Window for multiple hits: 40

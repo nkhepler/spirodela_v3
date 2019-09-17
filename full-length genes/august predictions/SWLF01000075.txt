@@ -1,0 +1,55 @@
+# This output was generated with AUGUSTUS (version 3.3.1).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. KÃ¶nig, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /data/www/augustus/augustus/config/ ...
+# rice version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like /data/www/augustus/webservice/data/AUG-1794496951/input.fa is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 1291, name = SWLF01000075) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+SWLF01000075	AUGUSTUS	gene	1	1291	0.81	+	.	g1
+SWLF01000075	AUGUSTUS	transcript	1	1291	0.81	+	.	g1.t1
+SWLF01000075	AUGUSTUS	start_codon	1	3	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000075	AUGUSTUS	initial	1	211	0.82	+	0	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000075	AUGUSTUS	internal	293	405	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000075	AUGUSTUS	internal	494	687	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000075	AUGUSTUS	terminal	958	1291	0.99	+	1	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000075	AUGUSTUS	intron	212	292	0.82	+	.	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000075	AUGUSTUS	intron	406	493	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000075	AUGUSTUS	intron	688	957	0.99	+	.	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000075	AUGUSTUS	CDS	1	211	0.82	+	0	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000075	AUGUSTUS	exon	1	211	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000075	AUGUSTUS	CDS	293	405	1	+	2	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000075	AUGUSTUS	exon	293	405	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000075	AUGUSTUS	CDS	494	687	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000075	AUGUSTUS	exon	494	687	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000075	AUGUSTUS	CDS	958	1291	0.99	+	1	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000075	AUGUSTUS	exon	958	1291	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000075	AUGUSTUS	stop_codon	1289	1291	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atggcgccagtccattctctttttcacgaccagcaccgctgcttcctcctactatttgctctcgcggccctcctcttaa
+# gcttcaacggtgtctctgctcacagcgtcaaacgcaggctcttggcttctctcaatgcttctgccgtctccggcggctggtcgccggccggagccacg
+# tggtacggtagccctaacggctttggaagcgacggtggtgcctgtggttatggcaaagccgtcgggcagcctcccatttcgtccatgatcgccgccgg
+# aggaccctccctcttccagtcaggcaagggctgcggagcctgttatcaggtcaagtgcattgggcacagcgcttgctccggcaacccggtgaccgtgg
+# tgatcaccgaccagtgccccggcggtccgtgcctggctgagagtgtgcacttcgacttgagtggcgccgcttttggagccatggcgcgccccggccag
+# gctgaccaactgcggagcgccggaagactggctgtgcagtttatgcgtgctgcgtgtaattacccggggacgaacgtcgccttcagggtcgacgccgg
+# atccaattcaaactacttggctgtgctcatagagttcgaggacggcgacggcgatctctccgccgtcgacttccgtcaggcgccggactccggcccgt
+# ggattcccatgcaacagtcatggggtgccgtgtggaagatcaattacggttcgccgctgaaggcgccgttctccttccgcctgacttctctcgcgtcc
+# aagaagtcgctagtagtcccagatgttatcccagcaggctggcagcctggagctacgtacaggtcccgcgtgaacttcaggggttaa]
+# protein sequence = [MAPVHSLFHDQHRCFLLLFALAALLLSFNGVSAHSVKRRLLASLNASAVSGGWSPAGATWYGSPNGFGSDGGACGYGK
+# AVGQPPISSMIAAGGPSLFQSGKGCGACYQVKCIGHSACSGNPVTVVITDQCPGGPCLAESVHFDLSGAAFGAMARPGQADQLRSAGRLAVQFMRAAC
+# NYPGTNVAFRVDAGSNSNYLAVLIEFEDGDGDLSAVDFRQAPDSGPWIPMQQSWGAVWKINYGSPLKAPFSFRLTSLASKKSLVVPDVIPAGWQPGAT
+# YRSRVNFRG]
+# end gene g1
+###
+# command line:
+# /data/www/augustus/augustus/bin/augustus --species=rice --strand=both --singlestrand=false --genemodel=partial --codingseq=on --sample=100 --keep_viterbi=true --alternatives-from-sampling=true --minexonintronprob=0.2 --minmeanexonintronprob=0.5 --maxtracks=2 /data/www/augustus/webservice/data/AUG-1794496951/input.fa --exonnames=on

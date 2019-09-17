@@ -1,0 +1,168 @@
+TBLASTX 2.8.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ../SWLF01.1.fsa_nt
+           134 sequences; 138,536,245 total letters
+
+
+
+Query= Spipo3G0013500 CDS
+
+Length=213
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value  N
+
+  SWLF01000023.1 Spirodela polyrhiza strain 7498 scaffold52, whol...  129     6e-36  2
+  SWLF01000047.1 Spirodela polyrhiza strain 7498 scaffold22, whol...  57.4    1e-08  1
+
+
+> SWLF01000023.1 Spirodela polyrhiza strain 7498 scaffold52, whole 
+genome shotgun sequence
+Length=10795902
+
+ Score = 129 bits (276),  Expect(2) = 6e-36
+ Identities = 51/51 (100%), Positives = 51/51 (100%), Gaps = 0/51 (0%)
+ Frame = -1/+1
+
+Query  213      LGDPDTCAAVRRPFELLSRHAHEVADHLVELLLPGEGWDDRRAVGSGHVPS  61
+                LGDPDTCAAVRRPFELLSRHAHEVADHLVELLLPGEGWDDRRAVGSGHVPS
+Sbjct  3039874  LGDPDTCAAVRRPFELLSRHAHEVADHLVELLLPGEGWDDRRAVGSGHVPS  3040026
+
+
+ Score = 51.9 bits (107),  Expect(2) = 6e-36
+ Identities = 20/21 (95%), Positives = 21/21 (100%), Gaps = 0/21 (0%)
+ Frame = -1/+1
+
+Query  63       SPSYPAVNPCVMSSVVRRLSH  1
+                +PSYPAVNPCVMSSVVRRLSH
+Sbjct  3041302  TPSYPAVNPCVMSSVVRRLSH  3041364
+
+
+ Score = 124 bits (266),  Expect(2) = 2e-34
+ Identities = 50/50 (100%), Positives = 50/50 (100%), Gaps = 0/50 (0%)
+ Frame = -2/+2
+
+Query  212      *EIQTLVPLFAALSSCSLGTPTK*PIISWNCFCPERGGMIEERSDPATCP  63
+                *EIQTLVPLFAALSSCSLGTPTK*PIISWNCFCPERGGMIEERSDPATCP
+Sbjct  3039875  *EIQTLVPLFAALSSCSLGTPTK*PIISWNCFCPERGGMIEERSDPATCP  3040024
+
+
+ Score = 51.5 bits (106),  Expect(2) = 2e-34
+ Identities = 20/20 (100%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+ Frame = -3/+3
+
+Query  61       SVLPGCQSVRNVFGCQKTLA  2
+                SVLPGCQSVRNVFGCQKTLA
+Sbjct  3041304  SVLPGCQSVRNVFGCQKTLA  3041363
+
+
+ Score = 122 bits (260),  Expect(2) = 3e-33
+ Identities = 50/50 (100%), Positives = 50/50 (100%), Gaps = 0/50 (0%)
+ Frame = +2/-2
+
+Query  62       LGTWPDPTALLSSHPSPGRSNSTR*SATSWACRESSSKGRRTAAQVSGSP  211
+                LGTWPDPTALLSSHPSPGRSNSTR*SATSWACRESSSKGRRTAAQVSGSP
+Sbjct  3040025  LGTWPDPTALLSSHPSPGRSNSTR*SATSWACRESSSKGRRTAAQVSGSP  3039876
+
+
+ Score = 50.1 bits (103),  Expect(2) = 3e-33
+ Identities = 20/21 (95%), Positives = 21/21 (100%), Gaps = 0/21 (0%)
+ Frame = +1/-1
+
+Query  1        MRESSDNRRHYARIDSRVRRT  63
+                MRESSDNRRHYARIDSRVRR+
+Sbjct  3041364  MRESSDNRRHYARIDSRVRRS  3041302
+
+
+ Score = 120 bits (256),  Expect(2) = 1e-32
+ Identities = 50/50 (100%), Positives = 50/50 (100%), Gaps = 0/50 (0%)
+ Frame = +1/-1
+
+Query  64       GHVAGSDRSSIIPPLSGQKQFHEMIGYFVGVPREQLERAANSGTSVWIS*  213
+                GHVAGSDRSSIIPPLSGQKQFHEMIGYFVGVPREQLERAANSGTSVWIS*
+Sbjct  3040023  GHVAGSDRSSIIPPLSGQKQFHEMIGYFVGVPREQLERAANSGTSVWIS*  3039874
+
+
+ Score = 50.1 bits (103),  Expect(2) = 1e-32
+ Identities = 20/21 (95%), Positives = 21/21 (100%), Gaps = 0/21 (0%)
+ Frame = +2/-2
+
+Query  2        CESLLTTEDITHGLTAG*DGL  64
+                CESLLTTEDITHGLTAG*DG+
+Sbjct  3041363  CESLLTTEDITHGLTAG*DGV  3041301
+
+
+ Score = 59.7 bits (124),  Expect(2) = 2e-13
+ Identities = 22/22 (100%), Positives = 22/22 (100%), Gaps = 0/22 (0%)
+ Frame = +3/-3
+
+Query  63       WARGRIRPLFYHPTPLRAEAIP  128
+                WARGRIRPLFYHPTPLRAEAIP
+Sbjct  3040024  WARGRIRPLFYHPTPLRAEAIP  3039959
+
+
+ Score = 45.5 bits (93),  Expect(2) = 2e-13
+ Identities = 19/20 (95%), Positives = 20/20 (100%), Gaps = 0/20 (0%)
+ Frame = +3/-3
+
+Query  3        ARVF*QPKTLRTD*QPGKTD  62
+                ARVF*QPKTLRTD*QPGKT+
+Sbjct  3041362  ARVF*QPKTLRTD*QPGKTE  3041303
+
+
+> SWLF01000047.1 Spirodela polyrhiza strain 7498 scaffold22, whole 
+genome shotgun sequence
+Length=7771994
+
+ Score = 57.4 bits (119),  Expect = 1e-08
+ Identities = 29/55 (53%), Positives = 32/55 (58%), Gaps = 0/55 (0%)
+ Frame = -2/-2
+
+Query  203      QTLVPLFAALSSCSLGTPTK*PIISWNCFCPERGGMIEERSDPATCPVRLTRLSI  39
+                + L P     SS SL   TK PIISWNC   ++G MIEERS PATC     R SI
+Sbjct  2645485  RALEPTGGPTSSRSLVISTKWPIISWNCASADKGRMIEERSAPATCIRHPPRRSI  2645321
+
+
+ Score = 55.1 bits (114),  Expect = 7e-08
+ Identities = 23/35 (66%), Positives = 29/35 (83%), Gaps = 0/35 (0%)
+ Frame = +1/+3
+
+Query  70       VAGSDRSSIIPPLSGQKQFHEMIGYFVGVPREQLE  174
+                VAG+DRSSII PLS   QFHEMIG+FV + +++LE
+Sbjct  2645352  VAGADRSSIILPLSALAQFHEMIGHFVEMTKDRLE  2645456
+
+
+ Score = 49.2 bits (101),  Expect = 4e-06
+ Identities = 19/39 (49%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+ Frame = -1/-1
+
+Query  156      HAHEVADHLVELLLPGEGWDDRRAVGSGHVPSPSYPAVN  40
+                H H+VADHL+EL    +G DDR A+G+G++  PS   +N
+Sbjct  2645438  HLHKVADHLMELCQRRQGEDDRGAIGTGYLHPPSAKKIN  2645322
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+
+Effective search space used: 1292843608
+
+
+  Database: ../SWLF01.1.fsa_nt
+    Posted date:  Sep 10, 2019  9:05 AM
+  Number of letters in database: 138,536,245
+  Number of sequences in database:  134
+
+
+
+Matrix: BLOSUM62
+Neighboring words threshold: 13
+Window for multiple hits: 40

@@ -1,0 +1,91 @@
+# This output was generated with AUGUSTUS (version 3.3.1).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. KÃ¶nig, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters using config directory /data/www/augustus/augustus/config/ ...
+# rice version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like /data/www/augustus/webservice/data/AUG-906945696/input.fa is in fasta format.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 1146, name = SWLF01000119c) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+SWLF01000119c	AUGUSTUS	gene	1	1146	0.98	+	.	g1
+SWLF01000119c	AUGUSTUS	transcript	1	1146	0.5	+	.	g1.t1
+SWLF01000119c	AUGUSTUS	start_codon	1	3	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	initial	1	121	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	internal	205	320	0.98	+	2	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	internal	395	573	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	internal	706	799	0.51	+	1	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	terminal	901	1146	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	intron	122	204	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	intron	321	394	0.98	+	.	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	intron	574	705	0.51	+	.	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	intron	800	900	1	+	.	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	CDS	1	121	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	exon	1	121	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	CDS	205	320	0.98	+	2	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	exon	205	320	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	CDS	395	573	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	exon	395	573	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	CDS	706	799	0.51	+	1	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	exon	706	799	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	CDS	901	1146	1	+	0	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	exon	901	1146	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	stop_codon	1144	1146	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atggccagctatgtcttccttctcctgttgtcctaccttctcgtctcctctgcgtctgcatgtgaccggtgcgtgcaca
+# agtccaaggcatcctacttctcgtcaccgtcttccctcgcaggcggggcctgtgggtatggcgctatggccacagagctctacggaggaaggtaccct
+# gtggcggcggcgggctcttccttatacagagaaggggtgggctgtggaggctgttttcagattcggtgcaagaacgggaagttctgcaccggcgcggg
+# ggtgaaggttgtcgtgacggacctgaacaagagcaaccagacagacttcgtgctctcccagccggcgttcctggccatggccaaggatggaatgggga
+# ggaccctcaagagactcggaaacgtcgacgtcgagtacaaaagggtggaggagagcagccgaaggcccgctcacctggtcgtcaaattattgtaccag
+# ggaggccagacggacatcgtcgccgtcgacgtcgctcaggtgggctcgtcggattggcggtacatgacccgcgacttcggcgccgtttggagcaccgg
+# ccgcgcccccgccggcgccctccagttccggctggtggtgacgggcggctacgacgggaagtgggtctgggcggagaaggtcctgccgctggactgga
+# ggactggggccgtctacgacgccggcgtccagatcagcgacatcgcgcaggagggttgctccccctgcgactccgaagtctggaagtga]
+# protein sequence = [MASYVFLLLLSYLLVSSASACDRCVHKSKASYFSSPSSLAGGACGYGAMATELYGGRYPVAAAGSSLYREGVGCGGCF
+# QIRCKNGKFCTGAGVKVVVTDLNKSNQTDFVLSQPAFLAMAKDGMGRTLKRLGNVDVEYKRVEESSRRPAHLVVKLLYQGGQTDIVAVDVAQVGSSDW
+# RYMTRDFGAVWSTGRAPAGALQFRLVVTGGYDGKWVWAEKVLPLDWRTGAVYDAGVQISDIAQEGCSPCDSEVWK]
+SWLF01000119c	AUGUSTUS	transcript	1	1146	0.48	+	.	g1.t2
+SWLF01000119c	AUGUSTUS	start_codon	1	3	.	+	0	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	initial	1	121	1	+	0	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	internal	205	320	0.98	+	2	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	internal	395	573	1	+	0	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	internal	664	799	0.49	+	1	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	terminal	901	1146	1	+	0	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	intron	122	204	1	+	.	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	intron	321	394	0.98	+	.	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	intron	574	663	0.49	+	.	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	intron	800	900	1	+	.	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	CDS	1	121	1	+	0	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	exon	1	121	.	+	.	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	CDS	205	320	0.98	+	2	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	exon	205	320	.	+	.	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	CDS	395	573	1	+	0	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	exon	395	573	.	+	.	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	CDS	664	799	0.49	+	1	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	exon	664	799	.	+	.	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	CDS	901	1146	1	+	0	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	exon	901	1146	.	+	.	transcript_id "g1.t2"; gene_id "g1";
+SWLF01000119c	AUGUSTUS	stop_codon	1144	1146	.	+	0	transcript_id "g1.t2"; gene_id "g1";
+# coding sequence = [atggccagctatgtcttccttctcctgttgtcctaccttctcgtctcctctgcgtctgcatgtgaccggtgcgtgcaca
+# agtccaaggcatcctacttctcgtcaccgtcttccctcgcaggcggggcctgtgggtatggcgctatggccacagagctctacggaggaaggtaccct
+# gtggcggcggcgggctcttccttatacagagaaggggtgggctgtggaggctgttttcagattcggtgcaagaacgggaagttctgcaccggcgcggg
+# ggtgaaggttgtcgtgacggacctgaacaagagcaaccagacagacttcgtgctctcccagccggcgttcctggccatggccaaggatggaatgggga
+# ggaccctcaagagactcggaaacgtcgacgtcgagtacaaaagggttccctgcgaatacccgacccgccacaacctgtcattcagggtggaggagagc
+# agccgaaggcccgctcacctggtcgtcaaattattgtaccagggaggccagacggacatcgtcgccgtcgacgtcgctcaggtgggctcgtcggattg
+# gcggtacatgacccgcgacttcggcgccgtttggagcaccggccgcgcccccgccggcgccctccagttccggctggtggtgacgggcggctacgacg
+# ggaagtgggtctgggcggagaaggtcctgccgctggactggaggactggggccgtctacgacgccggcgtccagatcagcgacatcgcgcaggagggt
+# tgctccccctgcgactccgaagtctggaagtga]
+# protein sequence = [MASYVFLLLLSYLLVSSASACDRCVHKSKASYFSSPSSLAGGACGYGAMATELYGGRYPVAAAGSSLYREGVGCGGCF
+# QIRCKNGKFCTGAGVKVVVTDLNKSNQTDFVLSQPAFLAMAKDGMGRTLKRLGNVDVEYKRVPCEYPTRHNLSFRVEESSRRPAHLVVKLLYQGGQTD
+# IVAVDVAQVGSSDWRYMTRDFGAVWSTGRAPAGALQFRLVVTGGYDGKWVWAEKVLPLDWRTGAVYDAGVQISDIAQEGCSPCDSEVWK]
+# end gene g1
+###
+# command line:
+# /data/www/augustus/augustus/bin/augustus --species=rice --strand=both --singlestrand=false --genemodel=partial --codingseq=on --sample=100 --keep_viterbi=true --alternatives-from-sampling=true --minexonintronprob=0.2 --minmeanexonintronprob=0.5 --maxtracks=2 /data/www/augustus/webservice/data/AUG-906945696/input.fa --exonnames=on

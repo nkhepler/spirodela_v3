@@ -1,0 +1,99 @@
+TBLASTX 2.8.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ../SWLF01.1.fsa_nt
+           134 sequences; 138,536,245 total letters
+
+
+
+Query= atexlb1
+
+Length=753
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value  N
+
+  SWLF01000119.1 Spirodela polyrhiza strain 7498 tig00002390_5, w...  59.3    5e-20  3
+
+
+> SWLF01000119.1 Spirodela polyrhiza strain 7498 tig00002390_5, 
+whole genome shotgun sequence
+Length=9057910
+
+ Score = 59.3 bits (123),  Expect(3) = 5e-20
+ Identities = 27/61 (44%), Positives = 36/61 (59%), Gaps = 0/61 (0%)
+ Frame = +1/+3
+
+Query  241      QVRCKIPPHCSEEGVYVVATDSGEGDGTDFILSPKAYGRMARPGTENQLYSFGVVNVEYQ  420
+                Q+RCK    C+  GV VV TD  + + TDF+LS  A+  MA+ G    L   G V+VEY+
+Sbjct  4624854  QIRCKNGKFCTGAGVKVVVTDLNKSNQTDFVLSQPAFLAMAKDGMGRTLKRLGNVDVEYK  4625033
+
+Query  421      R  423
+                R
+Sbjct  4625034  R  4625036
+
+
+ Score = 59.3 bits (123),  Expect(3) = 5e-20
+ Identities = 23/66 (35%), Positives = 32/66 (48%), Gaps = 0/66 (0%)
+ Frame = +1/+2
+
+Query  553      QEDCKEWRRMRRVFGAVHDLQNPPRGTLTLRFLVYGSAGINWIQSPNAIPADWTAGATYD  732
+                Q    +WR M R FGAV      P G L  R +V G     W+ +   +P DW  GA YD
+Sbjct  4625360  QVGSSDWRYMTRDFGAVWSTGRAPAGALQFRLVVTGGYDGKWVWAEKVLPLDWRTGAVYD  4625539
+
+Query  733      SNILLT  750
+                + + ++
+Sbjct  4625540  AGVQIS  4625557
+
+
+ Score = 46.4 bits (95),  Expect(3) = 5e-20
+ Identities = 18/39 (46%), Positives = 23/39 (59%), Gaps = 0/39 (0%)
+ Frame = +1/+2
+
+Query  136      GHCGYGEFGRDINNGEVSGVSWRLWNNGTGCGACYQVRC  252
+                G CGYG+ GR        G+S  L+  G  CGAC++VRC
+Sbjct  3306659  GACGYGDLGRSGYGLGTLGLSEALFEKGQICGACFEVRC  3306775
+
+
+ Score = 37.7 bits (76),  Expect(2) = 3e-06
+ Identities = 14/23 (61%), Positives = 17/23 (74%), Gaps = 0/23 (0%)
+ Frame = +1/-2
+
+Query  184      VSGVSWRLWNNGTGCGACYQVRC  252
+                V  VS  L+ +G GCGACY+VRC
+Sbjct  2488185  VGAVSPVLFKDGEGCGACYKVRC  2488117
+
+
+ Score = 32.2 bits (64),  Expect(2) = 3e-06
+ Identities = 15/34 (44%), Positives = 22/34 (65%), Gaps = 0/34 (0%)
+ Frame = +1/-2
+
+Query  322      TDFILSPKAYGRMARPGTENQLYSFGVVNVEYQR  423
+                T F LS  A+GRMA  G  ++L + G++ V Y+R
+Sbjct  2488029  THFDLSGAAFGRMAIAGFSSELRNRGMIPVLYRR  2487928
+
+
+
+Lambda      K        H
+   0.318    0.134    0.401 
+
+
+Effective search space used: 9326780764
+
+
+  Database: ../SWLF01.1.fsa_nt
+    Posted date:  Sep 10, 2019  9:05 AM
+  Number of letters in database: 138,536,245
+  Number of sequences in database:  134
+
+
+
+Matrix: BLOSUM62
+Neighboring words threshold: 13
+Window for multiple hits: 40
